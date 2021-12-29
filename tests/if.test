@@ -1,0 +1,10 @@
+int a;
+a = 2;
+int b;
+b = 9;
+if(b == a){
+ return print(a - 1);
+}
+else{
+ return print(b - 1);
+}
