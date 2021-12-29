@@ -8,9 +8,10 @@ ocamlbuild -use-menhir test.byte
 ```
 # Pour executer le code Mips(asm) generer
 ```
-spim load "mips"
-```
+spim load "mips"  
+
 La Boucle While et la condition if() , la Declaration et l'assignation sont implementer  
 Les typage est egallement implementer (toute fois seul le type int est actuellement coder)
 Actuellement toute les operation mathematique sont implementer (+ - / *)  
 Ainsi que les comparateur entre deux expression (> < == !=)
+```
